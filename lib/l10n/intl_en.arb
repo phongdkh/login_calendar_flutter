@@ -1,0 +1,20 @@
+{
+  "login": "Log In",
+  "tracklogin": "Login now to track all your expenses and income at a place!",
+  "account": "Don't have an account?",
+  "register": "Register",
+  "labelemail": "Email",
+  "hintemail": "Enter your email",
+  "labelpassword": "Your Password",
+  "hintpassword": "Enter your password",
+  "forgotpassword": "Forgot Password?",
+  "trackregister":"Create an account to access all the features of Maxpense!",
+  "hintemailregister": "Ex: abc@exmple.com",
+  "labelname": "Your Name",
+  "hintname": "Ex: Saul Ramires",
+  "hintpasswordregister": "********",
+  "accountregister": "Already have an account?",
+  "trackverification":"We have sent an email to your email account with a verification code!",
+  "labelverification": "Verification Code",
+  "hintverification": "Ex: 123456"
+}

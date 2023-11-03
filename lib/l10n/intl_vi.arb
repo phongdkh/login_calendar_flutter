@@ -1,0 +1,20 @@
+{
+  "login": "Đăng nhập",
+  "tracklogin": "Đăng nhập ngay để theo dõi tất cả các chi phí và thu nhập của bạn tại đây!",
+  "account": "Bạn chưa có tài khoản?",
+  "register": "Đăng ký",
+  "labelemail": "Email",
+  "hintemail": "Nhập email của bạn",
+  "labelpassword": "Mật khẩu của bạn",
+  "hintpassword": "Nhập mật khẩu của bạn",
+  "forgotpassword": "Quên mật khẩu?",
+  "trackregister":"Tạo một tài khoản để truy cập tất cả các tính năng của Maxpense!",
+  "hintemailregister": "Ví dụ: abc@exmple.com",
+  "labelname": "Tên của bạn",
+  "hintname": "Ví dụ: Saul Ramires",
+  "hintpasswordregister": "********",
+  "accountregister": "Bạn sẵn sàng để tạo một tài khoản?",
+  "trackverification":"Chúng tôi đã gửi email đến tài khoản email của bạn kèm theo mã xác minh!",
+  "labelverification": "Mã xác minh",
+  "hintverification": "Ví dụ: 123456"
+}
