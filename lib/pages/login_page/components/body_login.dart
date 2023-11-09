@@ -16,50 +16,48 @@ class BodyLogin extends StatefulWidget {
 class _BodyLoginState extends State<BodyLogin> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            hexStringToColor("CB2B93"),
-            hexStringToColor("9546C4"),
-            hexStringToColor("5E61F4")
-          ],
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
+    return SingleChildScrollView(
+      child: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [
+              hexStringToColor("CB2B93"),
+              hexStringToColor("9546C4"),
+              hexStringToColor("5E61F4")
+            ],
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+          ),
         ),
-      ),
-      child: Column(
-        children: [
-          SingleChildScrollView(
-            child: Padding(
+        child: Column(
+          children: [
+            Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: SingleChildScrollView(
-                child: Column(
-                  children: [
-                    const SizedBox(height: 40),
-                    const TitleCard(),
-                    const SizedBox(height: 20),
-                    Image.asset(
-                      'assets/images/Calendar.png',
-                     fit: BoxFit.fill,
-                    ),
-                    Text(
-                      S.of(context).tracklogin,
-                      textAlign: TextAlign.center,
-                      style: const TextStyle(fontSize: 16),
-                    ),
-                    const SizedBox(height: 10),
-                    const SighForm(),
-                    const SizedBox(height: 5),
-                    const SocalCard(),
-                    const SizedBox(height: 5),
-                    const RegisterCard(),
-                  ],
-                ),
+              child: Column(
+                children: [
+                  const SizedBox(height: 20),
+                  const TitleCard(),
+                  const SizedBox(height: 20),
+                  Image.asset(
+                    'assets/images/Calendar.png',
+                   fit: BoxFit.fill,
+                  ),
+                  Text(
+                    S.of(context).tracklogin,
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(fontSize: 16),
+                  ),
+                  const SizedBox(height: 10),
+                  const SighForm(),
+                  const SizedBox(height: 10),
+                  const SocalCard(),
+                  const SizedBox(height: 10),
+                  const RegisterCard(),
+                ],
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
